@@ -20,7 +20,7 @@ title                    : "/usr/Miro"
 title_separator          : "-"
 name                     : "Miro Furtado"
 description              : "My personal site."
-url                      : "mirofurtado.com"
+url                      : ""
 baseurl                  : ""
 repository               : # Github repo
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
