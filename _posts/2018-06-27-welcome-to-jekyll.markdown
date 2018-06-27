@@ -1,27 +1,26 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
+title:  "First post in my notebook!"
 date:   2018-06-27 10:16:25 -0400
-categories: jekyll update
+categories: notebook
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-$$\int_{-\infty}^\infty x^2 dx$$
+This is my first post in what will become my notebook. I intend to post details about any projects I'm working on, political thought, and all around general musings. To do so, I've added a couple of features to the site. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+First off, we can see that there is built-in code formatting:
 
-Jekyll also offers powerful support for code snippets:
+{% highlight python %}
+from people import miro
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+me = miro.new_miro()
+me.write_cheesy_blog_post(include_meta_referential_humor=True)
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+I've also included some built-in LaTex formatting with MathJax, so if you were ever wondering what the integral of the normal pdf was over its domain, here you are!
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+$$\int_{-\infty}^\infty \phi(x) \ dx = 1$$
+
+The integral of a probability distribution over its domain is 1! Who would have guessed?
+
+Anyways, this marks the end of my first notebook and (hopefully) the beginning of more to come!
+

@@ -31,7 +31,7 @@ head_scripts:
 author:
   name             : "Miro Furtado"
   avatar           : "/assets/MiroAtlas.png"
-  bio              : "Applied Math undergrad @ <b>Harvard</b>. <br/><br/> Researcher at the Hoffman Lab. <br/><br/>When I'm not studying or in lab, you can find me biking through Harvard square or tktk."
+  bio              : "Applied Math undergrad @ <b>Harvard</b>. <br/><br/> Researcher at the Hoffman Lab. <br/><br/>When I'm not studying or in lab, you can find me biking through Harvard square or arguing about politics."
   location         : "dc | boston"
   email            :
   uri              :
@@ -62,6 +62,8 @@ author:
 
 
 # Reading Files
+include: ["_pages"]
+
 include:
   - .htaccess
   - _pages
@@ -125,7 +127,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /nb/:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /nb/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

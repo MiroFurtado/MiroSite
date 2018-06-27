@@ -1,3 +1,5 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "About"
+    url: /
+  - title: "Notebook"
+    url: /nb/
