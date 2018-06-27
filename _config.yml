@@ -31,7 +31,7 @@ head_scripts:
 author:
   name             : "Miro Furtado"
   avatar           : "/assets/MiroAtlas.png"
-  bio              : "Applied Math undergrad @ <b>Harvard</b>. <br/><br/> Researcher at the Hoffman Lab. <br/><br/>When I'm not studying or in lab, you can find me biking through Harvard square or arguing about politics."
+  bio              : "Applied Math <a href='https://www.seas.harvard.edu/programs/applied-mathematics'><b>@Harvard</b></a>.<br/><br/> When I'm not studying or in lab, I'm out biking through Harvard square or arguing about politics."
   location         : "dc | boston"
   email            :
   uri              :
