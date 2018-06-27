@@ -13,7 +13,10 @@ First off, we can see that there is built-in code formatting:
 from people import miro
 
 me = miro.new_miro()
+
 me.write_cheesy_blog_post(include_meta_referential_humor=True)
+
+# Wow I'm even PEP8 compliant!
 {% endhighlight %}
 
 I've also included some built-in LaTex formatting with MathJax, so if you were ever wondering what the integral of the normal pdf was over its domain, here you are!
