@@ -127,9 +127,9 @@ sass:
 
 
 # Outputting
-permalink: /nb/:categories/:title/
+permalink: nb/:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /nb/page:num/
+paginate_path: nb/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -196,7 +196,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
