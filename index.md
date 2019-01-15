@@ -10,4 +10,6 @@ author_profile: true
 
   <p> In my spare time, I’m an avid <s style="text-decoration: line-through;">car dodger</s> cyclist who ocasionally contributes articles on global affairs to the Harvard Political Review and loves to follow the latest nonsense coming out of my hometown of DC.</p>
 
+  <button type="button" class="btn btn-primary"><i class="fa fa-home"></i></button>
+
 </div>
