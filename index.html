@@ -1,0 +1,54 @@
+---
+layout: default
+make-smaller-titles: true
+---
+
+<script src='https://cdn.jsdelivr.net/gh/markdown-it/markdown-it@8.4.2/dist/markdown-it.min.js'></script>
+
+
+<div class="container-fluid index">
+    <div class="row">
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="gravatar">
+                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+
+            <div class="author-text">
+                Applied Math <b>@Harvard</b><br/>I'm interested in using machines to help make our guesses more educated.
+            </div>
+
+            {% include social_links.html %}
+          </div>
+          <div class="col-md-12 main content-panel">
+
+ 
+
+            <div class="articles">
+
+                    <h2>recent posts (via github)</h2>
+      
+                    <ul>
+                            {% for i in (0..4) %}
+      
+                            <li>
+                                <a id="index{{ i }}" href="{{ site.baseurl }}gist.htm#{{ post.id }}"></a>
+                                <small class="hidden-xs"></small>
+                                <div id='loadingIndicator'></div>
+                            </li>
+                            <script home src='/gist/app.js' index={{ i }} defer></script>
+                        {% endfor %}
+                        <li>
+                            <small><i><a href="{{ site.baseurl }}/posts/"></a></i></small>
+                        </li>
+                    </ul>
+      
+                  </div>
+
+        </div>
+
+    </div>
+</div>

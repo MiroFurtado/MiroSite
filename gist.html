@@ -1,0 +1,66 @@
+---
+layout: default
+permalink: /gist.htm
+---
+
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'>
+
+    <link rel='dns-prefetch' href='https://api.github.com'>
+    <link rel='dns-prefetch' href='https://www.googletagmanager.com'>
+    <link rel='prefetch' href='https://www.googletagmanager.com/gtag/js'>
+
+
+
+    <link href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/styles/default.min.css' rel='stylesheet' media='nope' onload='this.media="all"'>
+    <link href='/gist/vendor/atom-one-light.css' rel='stylesheet' media='nope' onload='this.media="all"'>
+
+    <script src='https://cdn.jsdelivr.net/gh/markdown-it/markdown-it@8.4.2/dist/markdown-it.min.js'></script>
+    <script src='/gist/vendor/markdown-it-anchor@5.0.2.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/highlight.min.js' async defer></script>
+</head>
+<body class='light sans-serif'>
+    <div id='contentWrap'>
+        <div id='mainContent'>
+            <article>
+
+                <div class="container-fluid single">
+  <div class="row">
+
+    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
+      <div class="thumb">
+        <i id="gistIcon"></i>
+      </div>
+
+      <h1 class="header" id='titleHolder' itemprop="name"></h1>
+
+      <div class="author">
+        <small><i>
+          by
+          <span itemprop="author">
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span id='gistAuthor' itemprop="name"></span>
+            </span>
+          </span>
+          on <span id='gistPubDate' itemprop="datePublished" ></span>
+          under <b><span id='gistCategory'></span></b>
+        </i></small>
+      </div>
+
+
+      <div class="content-panel content">
+                <div id='gistContent'>
+                    <noscript>Enable JavaScript to use nicegist.</noscript>
+                    <div id='loadingIndicator'>
+                        <img src='/gist/dom_distiller_material_spinner.svg'>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <script src='/gist/app.js' gist=0 defer></script>
+
+
