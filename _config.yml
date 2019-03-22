@@ -3,9 +3,9 @@ title: "Miro Furtado"
 email: furtadomiro@gmail.com
 description: "A dark blog theme for Jekyll."
 baseurl: ""
-url: ""
+url: "mirofurtado.com"
 title_description: "Applied Math <b>@Harvard</b> </br> I have a passion for building costless abstractions for doing fast inference."
-title_image: "https://mirofurtado.com/assets/MiroAtlas.png"
+title_image: "/assets/MiroAtlas.png"
 post_limit: 5
 
 # Social usernames/URLs
